@@ -8,11 +8,11 @@ import lombok.Data;
 @Component
 public class Car {
 
-	public String model;
-	public long yom;
-	public long kmsTravelled;
-	public double price;
-	public String status;
+	private String model;
+	private long yom;
+	private long kmsTravelled;
+	private double price;
+	private String status;
 	
 	public Car() {
 		super();
