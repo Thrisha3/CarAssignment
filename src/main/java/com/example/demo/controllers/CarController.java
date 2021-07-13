@@ -38,7 +38,7 @@ public class CarController {
 	
 	@ModelAttribute("models")
 	public String[] models() {
-		return new String[] {"Innova","swift","Ertiga"};
+		return new String[] {"Innova","swift","Ertiga",Zen,Scorpio,Santro};
 		
 	}
 	@RequestMapping(value="/cars",method=RequestMethod.GET)
